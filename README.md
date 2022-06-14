@@ -17,9 +17,13 @@
 
 # Quadrinhos
 
+![TelaInicial](https://user-images.githubusercontent.com/104235401/173485942-917fdcf8-5472-4ab5-90f3-03a748a5af8a.png)
+
 * Na propia tela principal apresento cards  atraves de um efeito nos quadrinhos carregados da API;
 
 # Quadrinhos
+
+![Descricao](https://user-images.githubusercontent.com/104235401/173485955-ac5e2171-a725-4add-9b32-11ddc195d505.png)
 
 # Autor
 
