@@ -1,0 +1,140 @@
+* {
+ padding: 0;
+ margin: 0;
+ border: none;
+ box-sizing: border-box;
+ outline: none;
+ font: 'Marvel';
+}
+/*Configuraçoes dos comics--------------------------------------------------------------------------------------*/
+.quadrinhos {
+ display: flex;
+
+}
+
+.quadrinhos ul {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.quadrinhos ul li {
+ display: flex;
+ flex-direction: column;
+ color: white;
+ align-content: space-around;
+ padding-top: 40px;
+ padding-left:60PX;
+}
+
+/*Configuraçoes do menu lateral -------------------------------------------------------------------------------*/
+.Menu-lateral {
+ width: 250px;
+ height: 100%;
+ background-color: rgb(7,1,4);
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+
+.Menu-lateral ul {
+ list-style: none;
+ padding-top: 50px;
+ color: white;
+}
+
+.Menu-lateral ul li {
+ display: block;
+}
+
+.Menu-lateral ul li a {
+ display: inline-block;
+ font-size: 19px;
+ text-decoration: none; 
+ text-transform: uppercase;
+ padding: 10px 15px;
+ color: white;
+ padding-left: 50px;
+ width: 100%;
+ border-radius: 3px;
+}
+
+.Menu-lateral ul li a:hover {
+ background-color: rgb(236, 29, 36);
+ width: 100%;
+ transition: 1s;   
+}
+
+
+/*Configuraçoes gerais -----------------------------------------------------------------------------------------*/
+.body {
+ background-color: rgb(229,6,7);
+ background-image: url(imagens/fundobri.jpg);
+ background-repeat: repeat-y;
+ margin-left: 249px;
+}
+
+
+.versao {
+ padding-top: 400px;
+ padding-left: 80px;
+}
+
+.name{
+ color: white;
+ font-size: 17 px;
+ white-space: pre-wrap;      /* CSS3 */   
+ white-space: -moz-pre-wrap; /* Firefox */      
+ white-space: -o-pre-wrap;   /* Opera 7 */    
+ word-wrap: break-word;      /* IE */
+ width: 300px;
+ background-color: rgb(7,1,4);
+ border-radius: 3px;
+ text-align: center;   
+}
+
+.imgt{
+ height: 450px;
+ width: 300px;
+ margin: 10px;
+ background-color: black;
+ overflow: hidden;
+ box-shadow: 4px 4px 10px  rgb(236,29,36);
+ border-radius: 9px;
+}
+
+.imgt .lala{
+ height: 400px;
+ width: 300px;
+ border-radius: 9px;
+ transition: all 1s;
+ cursor: pointer;
+}
+.imgt .lala:hover{
+ height: 100px;
+}
+
+p{
+ margin-top: 25px;
+}
+
+#indexquadrinhos #navegacaoli a#comics{
+ color: white;
+ background-color: rgb(236, 29, 36);
+}
+.busca_input{
+ border: 0;
+ border-bottom: 2px solid #fff;
+ width: 100%;
+ padding-bottom: 0.4375rem;
+ padding-left: 1.875rem;
+ border-radius: 0;
+ font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ background-color: rgb(7,1,4);
+ color: #fff;
+}
+
+ input::placeholder{
+   color: #fff;
+}
